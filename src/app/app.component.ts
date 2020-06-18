@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'rounting-intro';
+
+  routes = [
+    {linkname:'Home',url:'home'},
+    {linkname:'Setting',url:'setting'}
+  ]
 }
